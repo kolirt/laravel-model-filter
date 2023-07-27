@@ -1,0 +1,32 @@
+{
+  "name": "kolirt/laravel-model-filter",
+  "description": "Model filter",
+  "keywords": [
+    "laravel",
+    "model",
+    "filter"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "kolirt"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Kolirt\\ModelFilter\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kolirt\\ModelFilter\\ServiceProvider"
+      ]
+    }
+  }
+}
